@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto
+}
+h2 {
+
+    color: goldenrod;
+    text-align: center;
+    font-size: 150%;
+}
+header {
+    background-color: purple;
+}
+body {
+    background-color: purple;
+}
+nav{
+    font-size: 120%;
+    margin: 15% ;
+    color: goldenrod;
+    border-color: goldenrod;
+    border: 30px;
+    text-align: center;
+   
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: gray;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="cadelog.css">
+    <script src="login.js" defer></script>
+
+</head>
+<body>
+    <h2>Fazer Login</h2>
+    <form onsubmit="event.preventDefault(); fazerLogin();">
+        <nav>
+            <div>
+      <p>
+        <label for="usuario">Usuário:</label>
+    </p>
+    <p>
+        <input type="text" id="usuario" required>
+    </p>
+
+
+    <p>
+        <label for="senhaLogin">Senha:</label>
+    </p>
+    <p>
+        <input type="password" id="senhaLogin" required>
+    </p>
+
+      
+        <button type="submit">Entrar</button>
+    </nav>  
+    </form>
+</body>
+</html>
