@@ -24,7 +24,6 @@ function fazerLogin() {
         alert('Login realizado com sucesso!');
         closeModal();
 
-        // Define que o usuário está logado e salva o nome de usuário
         localStorage.setItem('userLoggedIn', 'true');
         localStorage.setItem('username', usuario);
 
