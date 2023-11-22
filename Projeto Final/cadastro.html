@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadelog.css">
+    <script src="cadastro.js" defer></script>
+</head>
+<body>
+    <h2>Cadastre-se</h2>
+    <form onsubmit="event.preventDefault(); cadastrar();">
+        <nav>
+        <p>
+        <label for="nome">Nome:</label>
+    </p>
+    <p>
+        <input type="text" id="nome" required>
+    </p>
+    <p>
+        <label for="username">Nome de usuário:</label>
+    </p>
+    <p>
+        <input type="text" id="username" required>
+    </p>
+    <p> 
+        <label for="email">Email:</label>
+    </p>
+    <p>
+        <input type="email" id="email" required>
+    </p>
+    <p> 
+        <label for="senha">Senha:</label>
+    </p>
+    <p>
+        <input type="password" id="senha" required>
+    </p>
+    <p> 
+        <label for="confirmarSenha">Confirmar Senha:</label>
+    </p>
+    <p>
+        <input type="password" id="confirmarSenha" required>
+    </p>
+
+        <button type="submit">Cadastrar</button>
+    </nav>
+    </form>
+</body>
+</html>
