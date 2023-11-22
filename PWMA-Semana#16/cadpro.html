@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Cadastro de Produtos</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h2>Cadastro de Produtos</h2>
+    <form id="productForm">
+        <div>
+        <p>
+            <label for="codigo">Código:</label>
+        </p>
+        <p>
+            <input type="number" name="codigo" id="codigo">
+        </p>
+        <p>
+            <label for="nome">Nome do Produto:</label>
+        </p>
+        <p>
+            <input type="text" name="nome" id="nome" size="50" maxlength="50">
+        </p>
+        <p>
+            <label for="marca">Marca do Produto:</label>
+        </p>
+        <p>
+            <input type="text" name="marca" id="marca" maxlength="50">
+        </p>
+        <p>
+            <label for="preco">Preço:</label>
+        </p>
+        <p>
+            <input type="number" step="0.5" name="preco" id="preco">
+        </p>
+        <p>
+            <button type="button" onclick="cadastrarProduto()">Cadastrar</button>
+        </p>
+    </div>
+    </form>
+
+    <script src="salvar_produtos.js" defer></script>
+    <link rel="stylesheet" href="cadelog.css">
+</body>
+</html>

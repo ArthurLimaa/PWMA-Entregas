@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Produtos</title>
+    <link rel="stylesheet" href="cadelog.css">
+    <script src="altpro.js" defer></script>
+</head>
+<body>
+    <h2>Alterar Produtos</h2>
+    <form>
+        <div>
+        <p>
+            <label for="codigoAlterar">Código do Produto:</label>
+        </p>
+        <p>
+            <input type="number" id="codigoAlterar" required>
+        </p>
+        <p>
+            <label for="novoNome">Novo Nome:</label>
+        </p>
+        <p>
+            <input type="text" id="novoNome">
+        </p>
+        <p>
+            <label for="novaMarca">Nova Marca:</label>
+        </p>
+        <p>
+            <input type="text" id="novaMarca">
+        </p>
+        <p>
+            <label for="novoPreco">Novo Preço:</label>
+        </p>
+        <p>
+            <input type="number" step="0.5" id="novoPreco">
+        </p>
+        <p>
+            <button type="button" onclick="alterarProduto()">Alterar</button>
+        </p>
+    </div>
+    </form>
+</body>
+</html>
